@@ -1,38 +1,111 @@
-.App {
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+/*----Navbar----*/
+.navbar-content {
+  display: flex;
+  gap: 30px;      
+}
+
+.navbar-content > div {    
+  margin: 0px;
+  padding: 0px;
+  height: auto;  
+  text-align: center;
+}
+.navbar-content p {
+  margin: 0;
+}
+.navbar-content > div > a > img {
+  width: 30px;
+  height: 30px;
+}
+.navbar-content > div > * {
+  display: block;    
+}
+.navbar-content a {
+  text-decoration: none;
+}
+
+/*----Body----*/
+.wrapper-main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  /* background-color: #424b52; */
+}
+
+.dummy {
+  /* background-color: aliceblue; */
+  color: aliceblue;
+  width: 50%;
+  height: 50%;  
+  border-radius: 30px;
+  margin: auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.jobs {
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+  margin: auto auto;
+  overflow-x: auto;
+  scroll-snap-align: end;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.job {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-shrink: 0;
+  text-align: center;
+  background-color: rgb(52, 64, 75);
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 443px;
   color: white;
+  margin: 0 12.5px;
+}
+.job h2 {
+  margin: 25px auto;
+}
+.details {
+  background-color: rgb(34, 44, 53);
+  height: 100%;
+}
+.details > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  padding: 20px 20px;
+  width: 90%;
+  margin: auto;
+  border-bottom: 2px solid white;
+}
+.details p {
+  margin: 25px auto;
+  text-align: left;
+  width: 90%;
 }
 
-.App-link {
-  color: #61dafb;
+.job button {
+  border-radius: 0 0 30px 30px;
+  padding: 20px;
+  margin-top: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
 }
