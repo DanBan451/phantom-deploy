@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/phantom-deploy/static/css/main.18d88fb4.chunk.css",
+    "main.js": "/phantom-deploy/static/js/main.b34174f3.chunk.js",
+    "main.js.map": "/phantom-deploy/static/js/main.b34174f3.chunk.js.map",
+    "runtime-main.js": "/phantom-deploy/static/js/runtime-main.3f52313b.js",
+    "runtime-main.js.map": "/phantom-deploy/static/js/runtime-main.3f52313b.js.map",
+    "static/css/2.383c0125.chunk.css": "/phantom-deploy/static/css/2.383c0125.chunk.css",
+    "static/js/2.6c83c4c5.chunk.js": "/phantom-deploy/static/js/2.6c83c4c5.chunk.js",
+    "static/js/2.6c83c4c5.chunk.js.map": "/phantom-deploy/static/js/2.6c83c4c5.chunk.js.map",
+    "index.html": "/phantom-deploy/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/phantom-deploy/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.18d88fb4.chunk.css.map": "/phantom-deploy/static/css/main.18d88fb4.chunk.css.map",
+    "static/js/2.6c83c4c5.chunk.js.LICENSE.txt": "/phantom-deploy/static/js/2.6c83c4c5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f52313b.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.6c83c4c5.chunk.js",
+    "static/css/main.18d88fb4.chunk.css",
+    "static/js/main.b34174f3.chunk.js"
+  ]
+}
